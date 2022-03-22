@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-paramidi_soundfonts-master.flake = false;
+  inputs.src-paramidi_soundfonts-master.ref   = "refs/heads/master";
   inputs.src-paramidi_soundfonts-master.owner = "paranim";
-  inputs.src-paramidi_soundfonts-master.ref   = "master";
   inputs.src-paramidi_soundfonts-master.repo  = "paramidi_soundfonts";
   inputs.src-paramidi_soundfonts-master.type  = "github";
   
