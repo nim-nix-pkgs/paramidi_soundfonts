@@ -1,0 +1,62 @@
+{
+  "nodes": {
+    "flakeNimbleLib": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1647920574,
+        "narHash": "sha256-D3ob5QykELhyNcTnISOkjEzLlgXltwON8Ucrz5cpiQI=",
+        "owner": "riinr",
+        "repo": "nim-flakes-lib",
+        "rev": "bfb46a1f762002f07f9d81d93dacd544c6890623",
+        "type": "github"
+      },
+      "original": {
+        "owner": "riinr",
+        "ref": "master",
+        "repo": "nim-flakes-lib",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "narHash": "sha256-+8mazL4KLh6VltXYJc5+QFA5Q1i+Uh/TadRl9/+qcx8=",
+        "path": "/nix/store/gddrvlqs5qf1bp3kc80gp3qg5vm8kj76-source",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flakeNimbleLib": "flakeNimbleLib",
+        "nixpkgs": "nixpkgs",
+        "src-paramidi_soundfonts-master": "src-paramidi_soundfonts-master"
+      }
+    },
+    "src-paramidi_soundfonts-master": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1597330679,
+        "narHash": "sha256-sLZddFfk8alZ33OMTMsFRyETWQim+pTFomLx1p5Ot0s=",
+        "owner": "paranim",
+        "repo": "paramidi_soundfonts",
+        "rev": "4bf5402917cdb81bbb1f6db9b5fe2fa663505841",
+        "type": "github"
+      },
+      "original": {
+        "owner": "paranim",
+        "ref": "refs/heads/master",
+        "repo": "paramidi_soundfonts",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
