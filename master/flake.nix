@@ -11,6 +11,7 @@
   inputs.src-paramidi_soundfonts-master.ref   = "refs/heads/master";
   inputs.src-paramidi_soundfonts-master.owner = "paranim";
   inputs.src-paramidi_soundfonts-master.repo  = "paramidi_soundfonts";
+  inputs.src-paramidi_soundfonts-master.dir   = "";
   inputs.src-paramidi_soundfonts-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
